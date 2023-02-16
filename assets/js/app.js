@@ -58,20 +58,20 @@ document.addEventListener("DOMContentLoaded", function(){
         } 
     });
   }); 
-//responsive:mobile
-var menulist = document.getElementById("menulist");
+// //responsive:mobile
+// var menulist = document.getElementById("menulist");
 
-menulist.style.maxHeight = "0px";
-function togglemenu(){
-    if(menulist.style.maxHeight == "0px")
-    {
-        menulist.style.maxHeight = "220px";
-        document.getElementById("menuimg").src = "../images/close.png";
-    }else{
-        menulist.style.maxHeight = "0px";
-        document.getElementById("menuimg").src = "../images/menu.png";
-    }
-}
+// menulist.style.maxHeight = "0px";
+// function togglemenu(){
+//     if(menulist.style.maxHeight == "0px")
+//     {
+//         menulist.style.maxHeight = "250px";
+//         document.getElementById("menuimg").src = "../images/close.png";
+//     }else{
+//         menulist.style.maxHeight = "0px";
+//         document.getElementById("menuimg").src = "../images/menu.png";
+//     }
+// }
 
 
 
