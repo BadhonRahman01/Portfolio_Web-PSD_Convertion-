@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
 #menulist {
             overflow: hidden;
             transition: 0.5s;
@@ -18,7 +18,7 @@
         height: 300px;
     }
 .nav li {
-        padding-top: 10px;
+        padding-top: 12px;
     }
 .contact-btn {
         width: 120px;
@@ -30,8 +30,8 @@
 }
 .divone {
     position: absolute;
-    top: 100px;
-    width: 100%;
+    top: 90px;
+    width: 95%;
     height: 1500px;
     /* background-color: rgb(128, 11, 11) */
 }
@@ -49,57 +49,71 @@
     height: 450px;
     text-align: center;
   }
+  .logo {
+    padding-left: 0px;
+  }
 .iam{
-margin-left: 230px;
+margin-left: 130px;
 }
 .divone-left h2 {
     font-size: 3.1em;
 }
 .divone-left h1 {
-    font-size: 4.0em;
+    font-size: 3.0em;
     font-weight: 400;
-    margin-right: 230px;
+    margin-right: 250px;
 }
 .divone-left h5 {
-    font-size: 1.3em;
-    margin-right: 245px;
+    font-size: 1.2em;
+    margin-right: 250px;
 }
 .divone-left h6 {
     font-size: 1.2em;
 }
 .divone-left p {
     width: 600px;
-    font-size: 1.1em;
-    line-height: 35px;
-    margin-left: 20px;
+    font-size: 1.0em;
+    line-height: 30px;
+    margin-left: -80px;
 }
 .divone-social {
-    right: 20px;
+  top: -150px;
+    right: 55px;
   }
 .divone-right {
     position: absolute;
     top:300px;
-    left: 70px;
+    left: 0px;
     width: 100%;
     height: 700px;
 }
 .nofloat {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 100px;
   }
   .divone-right-circle3 {
     width: 350px;
     height: 350px;
-    margin-left: 250px;
-    margin-top: 75px;
+    margin-left: 280px;
+    margin-top: 25px;
   }
   .divone-right-circle1 {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 150px;
   }
   .divone-right-circle2 {
-    margin-left: 250px;
-    margin-top: 100px;
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+  .circle1 {
+    position: absolute;
+    top: 50px;
+    right: 150px;
+  }
+  .tri1 {
+    position: absolute;
+    top: 250px;
+    right: 200px;
   }
   .tri12{
     display: none;
@@ -108,7 +122,6 @@ margin-left: 230px;
     top: 850px;
     width: 100%;
     height: 500px;
-    padding-left: 100px;
     padding-top: 20px;
 }
 .card {
@@ -123,37 +136,54 @@ margin-left: 230px;
     position: absolute;
     top: 1350px;
     width: 100%;
-    height: 900px;
+    height: 1400px;
   }
   .div-three-top {
     padding-top: 20px;
     padding-left: 80px;
     display: inline-block;
   }
+  .div-three-top h3 {
+    font-size: 2.5em;
+  }
   .div-three-top p {
     font-size: 0.9em;
     width: 350px;
+    margin-bottom: 30px;
   }
   #divthreenav {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     width: 350px;
-    height: 80px;
+    height: 60px;
     background: transparent;
     display: flex;
     float: right;
     text-align: right;
-    margin-right: 30px;
+    margin-right: 220px;
+  }
+  #divthreenav button {
+    font-size: 12px;
   }
   .pbox {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 270px;
     margin-top: 30px;
-    border-radius: 25px;
+    border-radius: 5px;
     padding-top: 2px;
+    margin:25px;
+  }
+  #firstcol{
+    margin-top: 40px;
+    display: flex;
+  }
+  #midcol{
+    display: flex;
+  }
+  #lastcol{
+    display: flex;
   }
   .pbox h3 {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 0.8em;
   }
   .pbox h5 {
@@ -161,16 +191,15 @@ margin-left: 230px;
   }
   .pbox p {
     color: white;
-    padding-left: 20px;
     padding-right: 20px;
     font-size: 0.6em;
   }
   .pbox button {
     width: 100px;
+    margin-top: 0px;
     height: 30px;
     font-weight: 400;
     padding: 8px;
-    margin-left: 20px;
     text-align: left;
     font-size: 0.6em;
   }
@@ -178,13 +207,15 @@ margin-left: 230px;
     bottom: 350px;
     right: -100px;
   }
-
+  .d3-btn {
+    margin-top: 60px;
+  }
 
 
   .div-four {
     position: absolute;
     background-color: rgba(42, 35, 68, 255);
-    top: 2250px;
+    top: 2750px;
     width: 100%;
     height: 1300px;
   }
@@ -194,10 +225,10 @@ margin-left: 230px;
     /* background-color: #4b4650; */
   }
   .exp-top p{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .exp-bot {
-    padding-left: 100px;
+    padding-left: 10px;
   }
   .exp-btn::after {
 display: none;
@@ -210,9 +241,9 @@ display: none;
 
   .div-five {
     position: absolute;
-    top: 3550px;
+    top: 4050px;
     width: 100%;
-    height: 800px;
+    height:1250px;
   }
   .contact-details h5 {
     padding-top: 0px;
@@ -228,7 +259,7 @@ display: none;
   }
   .contactinfo {
     background: transparent;
-    margin-left: 80px;
+    margin-left: 30px;
   }
   .contactinfo li figure {
     width: 50px;
@@ -292,7 +323,7 @@ display: none;
     display: none;
 }
 #submit{
-    margin-left: 220px;
+    margin-left: 180px;
     width: 150px;
     height:50px;
     font-weight:500;
@@ -300,9 +331,9 @@ display: none;
 }
   .div-footer {
     position: absolute;
-    top: 4550px;
+    top: 5350px;
     width: 100%;
-    height: 450px;
+    height: 400px;
     background-color: rgba(42, 35, 68, 255);
   }
 
@@ -327,7 +358,7 @@ display: none;
     padding-bottom: 40px;
   }
   .hrline {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 
     }

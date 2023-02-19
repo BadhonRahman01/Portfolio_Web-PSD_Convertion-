@@ -36,7 +36,7 @@ html {
 }
 .nav .container {
   align-items: center;
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@ html {
   text-align: center;
   border-radius: 5px;
   border: none;
-  width: 140px;
+  width: 120px;
   height: 50px;
   transition: all 0.3s ease-in-out;
 }
@@ -103,7 +103,7 @@ html {
   margin-bottom: 0;
   list-style: none;
   margin-top: 200px;
-  margin-left: 10px;
+  margin-left: 80px;
   padding-right: 0px;
 }
 .social-icons li {
@@ -157,8 +157,9 @@ html {
 .divone {
   position: absolute;
   top: 120px;
-  width: 90%;
+  width: 95%;
   height: 700px;
+  overflow: hidden;
   /* background-color: rgb(128, 11, 11) */
 }
 .divone-left {
@@ -185,7 +186,7 @@ html {
   font-weight: 400;
 }
 .divone-left h5 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: sans-serif;
   color: #fcfaff;
   padding-top: 0px;
@@ -247,7 +248,7 @@ html {
 .divone-right {
   position: absolute;
   left: 650px;
-  width: 600px;
+  width: 650px;
   height: 700px;
   /* cursor: none;  */
   /* background-color: rgb(84, 4, 90) */
@@ -255,28 +256,28 @@ html {
 .circle1 {
   position: absolute;
   top: 50px;
-  right: 50px;
+  right: 90px;
 }
 .circle11 {
   position: absolute;
-  top: 220px;
+  top: 200px;
   left: 180px;
 }
 .tri1 {
   position: absolute;
   top: 120px;
-  right: 80px;
+  right: 100px;
 }
 .tri11 {
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 200px;
   rotate: 180deg;
 }
 .tri12 {
   position: absolute;
   top: 250px;
-  right: 70px;
+  right: 110px;
   rotate: 90deg;
 }
 .divone-right-circle1 {
@@ -337,6 +338,12 @@ html {
   top: 700px;
   width: 100%;
   height: 250px;
+  overflow: hidden;
+}
+.dotted1 {
+  position: absolute;
+  bottom: -105px;
+  left: -130px;
 }
 .dotted2 {
   position: absolute;
@@ -345,9 +352,9 @@ html {
 }
 .card {
   background: transparent;
-  width: 15rem;
+  width: 16rem;
   height: 160px;
-  border: 2px rgba(214, 34, 59, 255);
+  border: 2px rgba(106,50,78,255);
   border-style: dashed;
   border-radius: 0 25px 0 0;
   font-family: "Lato", sans-serif;
@@ -391,7 +398,8 @@ html {
   position: absolute;
   top: 950px;
   width: 100%;
-  height: 1200px;
+  height: 1400px;
+  overflow: hidden;
 }
 .div-three-top {
   top: 0px;
@@ -399,13 +407,14 @@ html {
   height: 250px;
   /* background-color: #d65f5f; */
   padding-top: 50px;
-  padding-left: 200px;
+  padding-left: 150px;
   display: inline-block;
 }
 .div-three-top h3 {
   color: #fff;
-  font-size: 2.5em;
-  font-family: Monaco;
+  font-size: 3.0em;
+  font-family: "Playfair Display";
+  font-weight: 400;
   padding-top: 50px;
   width: 150px;
   margin-bottom: 20px;
@@ -414,7 +423,7 @@ html {
 .div-three-top p {
   color: #fff;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* background-color: rgba(42,35,68,255); */
@@ -423,23 +432,25 @@ html {
 
 #divthreenav {
   margin-bottom: 75px;
-  width: 500px;
+  width: 550px;
   height: 50px;
   background: transparent;
   display: flex;
   float: right;
   text-align: center;
-  margin-right: 170px;
+  margin-right: 100px;
 }
 #divthreenav button {
   border: none;
   color: white;
   background: rgba(29, 23, 47, 255);
   font-family: "Lato", sans-serif;
-  font-size: 15px;
+  font-size: 12.5px;
   font-weight: 400;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
   display: inline-block;
   position: relative;
 }
@@ -469,19 +480,19 @@ html {
 }
 
 .pbox {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 420px;
   margin-top: 30px;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 5px;
   padding-top: 2px;
   transition: all 0.3s ease-in-out;
 }
 .pbox h3 {
-  padding-left: 20px;
-  padding-top: 50px;
+  padding-left: 35px;
+  padding-top: 100px;
   padding-right: 20px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: left;
   color: white;
   font-weight: bold;
@@ -490,34 +501,43 @@ html {
 }
 .pbox h5 {
   color: white;
-  padding-left: 20px;
+  padding-top: 10px;
+  padding-left: 35px;
   padding-right: 20px;
   text-align: left;
-  font-size: 1.1em;
+  font-size: 1.0em;
+  font-weight: bold;
   display: none;
   font-family: "Lato", sans-serif;
 }
 .pbox p {
   color: white;
-  padding-left: 20px;
+  padding-left: 35px;
   padding-right: 20px;
+  line-height: 30px;
   text-align: left;
   display: none;
   font-family: "Lato", sans-serif;
 }
+.pbox p:nth-child(2) {
+  padding-top: -50px;
+}
 .pbox button {
+  margin-top: 50px;
   color: black;
-  width: 130px;
+  width: 150px;
   height: 40px;
+  font-family:"Open Sans",sans-serif;
   font-weight: 400;
   padding: 8px;
-  margin-left: 20px;
+  padding-left: 20px;
+  margin-left: 35px;
   text-align: left;
   border: none;
   display: none;
 }
 .pbox:hover {
-  box-shadow: inset 0 0 0 1000px rgba(150, 7, 7, 0.6);
+  box-shadow: inset 0 0 0 1000px rgba(217,45,69,255);
 }
 .pbox:hover h3 {
   display: block;
@@ -549,7 +569,7 @@ html {
   border-radius: 5px;
   margin-top: 100px;
   padding: 10px;
-  width: 150px;
+  width: 160px;
   height: 50px;
   transition: all 0.3s ease-in-out;
   border: none;
@@ -577,21 +597,22 @@ html {
 }
 .circle3 {
   position: absolute;
-  top: -850px;
+  top: -1250px;
   right: 50px;
 }
 .div-four {
   position: absolute;
   background-color: rgba(42, 35, 68, 255);
-  top: 2150px;
+  top: 2350px;
   width: 100%;
-  height: 1000px;
+  height: 800px;
+  overflow: hidden;
 }
 
 .div-four h3 {
   color: #fff;
   font-size: 2.5em;
-  font-family: Monaco;
+  font-family: "Playfair Display";
   text-align: center;
   padding-top: 80px;
   /* background-color: #4b4650; */
@@ -599,10 +620,8 @@ html {
 .div-four p {
   color: #fff;
   display: inline-block;
-  font-size: 1.2em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* background-color: rgba(42,35,68,255); */
+  font-size: 1.0em;
+  font-family: Geneva, Verdana, sans-serif;
   text-align: center;
 }
 .div-four img {
@@ -612,7 +631,7 @@ html {
   width: 200px;
   height: 50px;
   background-color: rgba(214, 34, 59, 255);
-  margin: 10px;
+  margin: 20px;
   border: none;
   pointer-events: none;
   position: relative;
@@ -621,7 +640,7 @@ html {
   width: 180px;
   height: 50px;
   background-color: rgba(214, 34, 59, 255);
-  margin: 10px;
+  margin: 20px;
   border: none;
   pointer-events: none;
   position: relative;
@@ -638,26 +657,26 @@ html {
 .exp-btn-last::before {
   content: "";
   position: absolute;
-  right: -32px;
-  top: calc(50% - 25.5px);
-  border-top: 27px solid transparent;
+  right: -34px;
+  top: calc(50% - 25.0px);
+  border-top: 25.3px solid transparent;
   border-left: 35px solid rgba(214, 34, 59, 255);
-  border-bottom: 26px solid transparent;
+  border-bottom: 25.3px solid transparent;
 }
 .exp-btn::before {
   content: "";
   position: absolute;
-  right: -32px;
-  top: calc(50% - 25.5px);
-  border-top: 27px solid transparent;
+  right: -34px;
+  top: calc(50% - 25.0px);
+  border-top: 25.3px solid transparent;
   border-left: 35px solid rgba(214, 34, 59, 255);
-  border-bottom: 26px solid transparent;
+  border-bottom: 25.3px solid transparent;
 }
 .exp-btn::after {
   content: "";
   position: absolute;
   right: -80px;
-  top: calc(50% - 2px);
+  top: calc(50% - 2.5px);
   border-top: 3px solid rgba(214, 34, 59, 255);
   border-left: 120px solid rgba(214, 34, 59, 255);
   border-bottom: 3px solid rgba(214, 34, 59, 255);
@@ -758,6 +777,7 @@ html {
   top: 3150px;
   width: 100%;
   height: 800px;
+  overflow: hidden;
 }
 
 .contact-details {
@@ -769,7 +789,7 @@ html {
   color: #fff;
   font-size: 3em;
   font-weight: 500;
-  font-family: Monaco;
+  font-family: "Playfair Display";
   text-align: left;
   padding-left: 100px;
   /* background-color: #fff; */
@@ -799,6 +819,12 @@ html {
   padding-right: 5px;
   margin-bottom: 10px;
 }
+#cli{
+  margin-bottom: 50px;
+}
+#eli{
+  margin-bottom: 50px;
+}
 
 .contactinfo h5 {
   font-size: 20px;
@@ -807,7 +833,7 @@ html {
   font-family: "Montserrat";
 }
 .contactinfo p {
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 5px;
   line-height: 2px;
   color: grey;
@@ -838,9 +864,9 @@ html {
   color: #fff;
   font-size: 3em;
   font-weight: 500;
-  font-family: Monaco;
+  font-family: "Playfair Display";
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   /* background-color: #fff; */
 }
 
@@ -855,7 +881,7 @@ html {
   border-radius: 5px;
   width: 100%;
   font-family: "Lato", sans-serif;
-  margin-bottom: 23px;
+  margin-bottom: 40px;
 }
 .contactus-form input::placeholder,
 .contactus-form textarea::placeholder {
@@ -890,7 +916,7 @@ html {
   position: absolute;
   top: 3950px;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-color: rgba(42, 35, 68, 255);
 }
 
@@ -924,7 +950,7 @@ html {
   width: 100%;
   border-width: 0;
   color: gray;
-  margin-top: 80px;
+  margin-top: 50px;
   background-color: gray;
   padding: none;
   margin: none;
